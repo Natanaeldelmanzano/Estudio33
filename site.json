@@ -1,0 +1,1679 @@
+{
+  "_ayuda": "Fuente única de marca, contacto, textos de portada, CTAs, formulario y territorio de Estudio 33 Real Estate.",
+  "marca": {
+    "nombre": "Estudio 33 Real Estate",
+    "palabra": "Estudio",
+    "numero": "33",
+    "descriptor": "Real Estate",
+    "nombre_empresa": "Estudio 33 Real Estate",
+    "nombre_anterior": "Taptap Inmobiliaria",
+    "eslogan": "Tu casa, en las manos adecuadas",
+    "descripcion_corta": "Agencia inmobiliaria con raíces en Asturias y servicio en toda España. Vendemos, compramos e invertimos con método, datos y un asesor contigo de principio a fin.",
+    "favicon": "/img/favicon.svg"
+  },
+  "dominio": {
+    "url_base": "https://[DOMINIO]",
+    "_ayuda": "Sin barra final. Se usa en canonical, Open Graph, sitemap y schema."
+  },
+  "contacto": {
+    "telefono_visible": "642 32 27 17",
+    "telefono_enlace": "+34642322717",
+    "whatsapp_numero": "34642322717",
+    "email": "taptaprealestate@gmail.com",
+    "zona_servicio": "Oviedo, Gijón, Avilés, Mieres, Siero y Llanera. Resto de España, bajo consulta."
+  },
+  "whatsapp": {
+    "mensaje_base": "Hola, me gustaría hablar con un asesor de Estudio 33 Real Estate.",
+    "aria_label": "Escribir por WhatsApp a Estudio 33 Real Estate"
+  },
+  "redes": {
+    "_ayuda": "Rellena url cuando existan los perfiles @estudio33realestate. Si está vacía, el icono sale atenuado y no entra en sameAs.",
+    "tiktok": {
+      "etiqueta": "TikTok",
+      "url": "",
+      "icono": "tiktok",
+      "aria_label": "Estudio 33 Real Estate en TikTok"
+    },
+    "instagram": {
+      "etiqueta": "Instagram",
+      "url": "",
+      "icono": "instagram",
+      "aria_label": "Estudio 33 Real Estate en Instagram"
+    },
+    "facebook": {
+      "etiqueta": "Facebook",
+      "url": "",
+      "icono": "facebook",
+      "aria_label": "Estudio 33 Real Estate en Facebook"
+    },
+    "linkedin": {
+      "etiqueta": "LinkedIn",
+      "url": "",
+      "icono": "linkedin",
+      "aria_label": "Estudio 33 Real Estate en LinkedIn"
+    }
+  },
+  "formulario": {
+    "_ayuda": "Web3Forms: una sola access key para los 5 formularios de /pages/bienvenida-*.html. Las preguntas de cada formulario están en 'formularios'.",
+    "endpoint": "https://api.web3forms.com/submit",
+    "access_key": "90d1b96c-e863-48ec-b402-04eb11940f67"
+  },
+  "proceso": {
+    "etiqueta": "El método 33",
+    "titulo": "Cinco pasos, un responsable y ninguna sorpresa",
+    "texto": "Así trabajamos cada venta. Sabrás en todo momento en qué punto está la tuya y qué viene después.",
+    "pasos": [
+      {
+        "titulo": "Diagnóstico",
+        "texto": "Conocemos la vivienda, tu situación y tus plazos. Revisamos escritura, cargas y certificados."
+      },
+      {
+        "titulo": "Valoración",
+        "texto": "Precio basado en ventas reales de la zona, con un informe que te explicamos punto por punto."
+      },
+      {
+        "titulo": "Preparación",
+        "texto": "Pequeñas mejoras, fotografía, plano y un anuncio que destaca lo que el comprador busca."
+      },
+      {
+        "titulo": "Comercialización",
+        "texto": "Difusión en portales y entre nuestros compradores. Filtramos a cada interesado antes de la visita."
+      },
+      {
+        "titulo": "Cierre",
+        "texto": "Negociamos, coordinamos arras, hipoteca y notaría, y seguimos contigo hasta la entrega de llaves."
+      }
+    ]
+  },
+  "resenas": {
+    "archivo": "reviews.json",
+    "max_mostrar": 3,
+    "excluir_en_tipos": [
+      "legal"
+    ],
+    "schema_aggregate_rating": false
+  },
+  "navegacion": {
+    "principal": [
+      {
+        "etiqueta": "Vender",
+        "id": "vender-piso"
+      },
+      {
+        "etiqueta": "Comprar",
+        "id": "comprar-piso"
+      },
+      {
+        "etiqueta": "Servicios",
+        "submenu": [
+          "valoracion-vivienda",
+          "gestion-alquiler",
+          "gestion-pisos-turisticos",
+          "inversion-inmobiliaria",
+          "locales-comerciales",
+          "plazas-de-garaje",
+          "terrenos-y-parcelas",
+          "naves-industriales"
+        ]
+      },
+      {
+        "etiqueta": "Zonas",
+        "submenu": [
+          "inmobiliaria-oviedo",
+          "inmobiliaria-gijon",
+          "inmobiliaria-aviles",
+          "inmobiliaria-mieres",
+          "inmobiliaria-siero",
+          "inmobiliaria-llanera"
+        ]
+      },
+      {
+        "etiqueta": "Academy",
+        "id": "academy"
+      },
+      {
+        "etiqueta": "Nosotros",
+        "id": "sobre-nosotros"
+      },
+      {
+        "etiqueta": "Contacto",
+        "id": "contacto"
+      }
+    ],
+    "cta": {
+      "etiqueta": "Quiero vender mi casa",
+      "id": "contacto"
+    }
+  },
+  "pie": {
+    "columnas": [
+      {
+        "tipo": "marca",
+        "titulo": "Estudio 33 Real Estate"
+      },
+      {
+        "tipo": "enlaces",
+        "titulo": "Servicios",
+        "ids": [
+          "vender-piso",
+          "comprar-piso",
+          "valoracion-vivienda",
+          "gestion-alquiler",
+          "gestion-pisos-turisticos",
+          "inversion-inmobiliaria",
+          "locales-comerciales",
+          "plazas-de-garaje",
+          "terrenos-y-parcelas",
+          "naves-industriales"
+        ]
+      },
+      {
+        "tipo": "enlaces",
+        "titulo": "Zonas",
+        "ids": [
+          "inmobiliaria-oviedo",
+          "inmobiliaria-gijon",
+          "inmobiliaria-aviles",
+          "inmobiliaria-mieres",
+          "inmobiliaria-siero",
+          "inmobiliaria-llanera"
+        ]
+      },
+      {
+        "tipo": "enlaces",
+        "titulo": "Estudio 33",
+        "ids": [
+          "sobre-nosotros",
+          "academy",
+          "unete-al-equipo",
+          "contacto",
+          "aviso-legal",
+          "politicas-privacidad",
+          "politicas-cookies",
+          "terminos-servicio"
+        ]
+      }
+    ],
+    "texto_legal": "© {{año}} Estudio 33 Real Estate · Servicios inmobiliarios en Asturias y en toda España."
+  },
+  "seo": {
+    "locale": "es_ES",
+    "og_imagen": "/img/og-estudio33.png",
+    "og_ancho": 1200,
+    "og_alto": 630,
+    "twitter_card": "summary_large_image",
+    "robots_defecto": "index, follow, max-image-preview:large"
+  },
+  "legal": {
+    "_ayuda": "Los campos vacíos no se muestran. La LSSI exige titular, NIF y domicilio en el aviso legal: complétalos en cuanto la sociedad esté constituida.",
+    "titular": "Estudio 33 Real Estate",
+    "actividad": "Servicios de intermediación, asesoramiento y gestión inmobiliaria",
+    "forma_juridica": "",
+    "nif_cif": "",
+    "domicilio": "",
+    "email": "taptaprealestate@gmail.com",
+    "inscripcion_registral": ""
+  },
+  "idiomas": {
+    "principal": "es",
+    "fase2": {
+      "activo": false,
+      "idiomas": [
+        "en",
+        "de",
+        "zh"
+      ],
+      "carpetas": {
+        "en": "/en/",
+        "de": "/de/",
+        "zh": "/zh/"
+      },
+      "x_default": "es"
+    },
+    "_ayuda": "Plan de fase 2 (versiones en/de/zh con hreflang). Aún no lo usa el generador."
+  },
+  "indexacion": {
+    "urls_por_dia": 10
+  },
+  "territorio": [
+    {
+      "id": "oviedo",
+      "nombre": "Oviedo",
+      "zonas": [
+        {
+          "id": "centro",
+          "nombre": "Centro",
+          "centro": true
+        },
+        {
+          "id": "naranco",
+          "nombre": "Naranco"
+        },
+        {
+          "id": "la-corredoria",
+          "nombre": "La Corredoria"
+        },
+        {
+          "id": "el-cristo",
+          "nombre": "El Cristo"
+        },
+        {
+          "id": "teatinos",
+          "nombre": "Teatinos"
+        },
+        {
+          "id": "arganosa",
+          "nombre": "Argañosa"
+        },
+        {
+          "id": "pumarin",
+          "nombre": "Pumarín"
+        },
+        {
+          "id": "ventanielles",
+          "nombre": "Ventanielles"
+        },
+        {
+          "id": "otero",
+          "nombre": "Otero"
+        }
+      ]
+    },
+    {
+      "id": "gijon",
+      "nombre": "Gijón",
+      "zonas": [
+        {
+          "id": "calzada",
+          "nombre": "Calzada"
+        },
+        {
+          "id": "cimadevilla",
+          "nombre": "Cimadevilla"
+        },
+        {
+          "id": "el-llano",
+          "nombre": "El Llano"
+        },
+        {
+          "id": "somio",
+          "nombre": "Somió"
+        },
+        {
+          "id": "montevil",
+          "nombre": "Montevil"
+        },
+        {
+          "id": "la-arena",
+          "nombre": "La Arena"
+        },
+        {
+          "id": "nuevo-roces",
+          "nombre": "Nuevo Roces"
+        },
+        {
+          "id": "contrueces",
+          "nombre": "Contrueces"
+        },
+        {
+          "id": "viesques",
+          "nombre": "Viesques"
+        }
+      ]
+    },
+    {
+      "id": "aviles",
+      "nombre": "Avilés",
+      "zonas": [
+        {
+          "id": "centro",
+          "nombre": "Centro",
+          "centro": true
+        },
+        {
+          "id": "la-luz",
+          "nombre": "La Luz"
+        },
+        {
+          "id": "versalles",
+          "nombre": "Versalles"
+        },
+        {
+          "id": "llaranes",
+          "nombre": "Llaranes"
+        },
+        {
+          "id": "la-carriona",
+          "nombre": "La Carriona"
+        },
+        {
+          "id": "villalegre",
+          "nombre": "Villalegre"
+        }
+      ]
+    },
+    {
+      "id": "mieres",
+      "nombre": "Mieres",
+      "zonas": [
+        {
+          "id": "centro",
+          "nombre": "Centro",
+          "centro": true
+        },
+        {
+          "id": "figaredo",
+          "nombre": "Figaredo"
+        },
+        {
+          "id": "turon",
+          "nombre": "Turón"
+        },
+        {
+          "id": "ujo",
+          "nombre": "Ujo"
+        },
+        {
+          "id": "santa-rosa",
+          "nombre": "Santa Rosa"
+        }
+      ]
+    },
+    {
+      "id": "siero",
+      "nombre": "Siero",
+      "zonas": [
+        {
+          "id": "lugones",
+          "nombre": "Lugones"
+        },
+        {
+          "id": "la-pola",
+          "nombre": "La Pola"
+        },
+        {
+          "id": "fresneda",
+          "nombre": "Fresneda"
+        },
+        {
+          "id": "colloto",
+          "nombre": "Colloto"
+        }
+      ]
+    },
+    {
+      "id": "llanera",
+      "nombre": "Llanera",
+      "zonas": [
+        {
+          "id": "posada",
+          "nombre": "Posada"
+        },
+        {
+          "id": "lugo",
+          "nombre": "Lugo"
+        },
+        {
+          "id": "la-morgal",
+          "nombre": "La Morgal"
+        }
+      ]
+    }
+  ],
+  "ctas": {
+    "defecto": "Hablar con un asesor",
+    "por_consulta": {
+      "vender-vivienda": "Quiero vender mi casa",
+      "comprar": "Busco vivienda",
+      "alquilar": "Quiero alquilar mi piso",
+      "alojamiento-turistico": "Quiero rentabilizar mi piso turístico",
+      "inversion": "Quiero invertir",
+      "garaje": "Hablar con un asesor",
+      "local": "Hablar con un asesor",
+      "terreno-parcela": "Quiero vender mi terreno",
+      "nave-industrial": "Hablar con un asesor",
+      "valorar": "Quiero saber cuánto vale",
+      "agentes": "Quiero unirme al equipo",
+      "general": "Hablar con un asesor"
+    },
+    "formulario_por_consulta": {
+      "vender-vivienda": "propietarios?motivo=vender",
+      "alquilar": "propietarios?motivo=alquilar",
+      "alojamiento-turistico": "propietarios?motivo=turistico",
+      "garaje": "propietarios",
+      "local": "propietarios",
+      "terreno-parcela": "propietarios?motivo=vender",
+      "nave-industrial": "propietarios",
+      "valorar": "propietarios?motivo=valorar",
+      "comprar": "compradores",
+      "inversion": "inversores",
+      "academy": "academy",
+      "agentes": "agentes",
+      "general": "/pages/contacto.html"
+    }
+  },
+  "contacto_bloques": {
+    "general": {
+      "etiqueta": "Contacto",
+      "titulo": "Háblanos de tu idea",
+      "texto": "Estudiaremos la mejor forma de hacerla realidad. Nuestro compromiso es darte una solución, no una respuesta de manual.",
+      "boton": "Hablar con un asesor",
+      "placeholder": "Por ejemplo: quiero vender un piso de tres habitaciones en Oviedo antes del verano."
+    },
+    "academy": {
+      "etiqueta": "Academy",
+      "titulo": "Forma parte de la Academy",
+      "texto": "Queremos formar parte de tu crecimiento profesional. Cuéntanos de dónde partes y diseñaremos contigo el camino.",
+      "boton": "Solicitar información",
+      "placeholder": "Tu experiencia previa y qué te gustaría aprender."
+    },
+    "por_consulta": {
+      "vender-vivienda": {
+        "etiqueta": "Empieza aquí",
+        "titulo": "Hagamos realidad tu venta",
+        "texto": "Cuéntanos sobre tu vivienda. Estudiaremos su valor real y te propondremos un plan de venta pensado para ti. Desde ese momento, trabajamos para ti.",
+        "boton": "Quiero vender mi casa",
+        "placeholder": "Tipo de vivienda, zona, metros aproximados y cuándo te gustaría vender."
+      },
+      "comprar": {
+        "etiqueta": "Empieza aquí",
+        "titulo": "Tu próxima casa empieza aquí",
+        "texto": "Cuéntanos qué buscas y hacemos nuestra tu búsqueda. Te acompañamos hasta tener las llaves en la mano.",
+        "boton": "Empezar mi búsqueda",
+        "placeholder": "Zona, habitaciones, presupuesto y plazo para mudarte."
+      },
+      "alquilar": {
+        "etiqueta": "Empieza aquí",
+        "titulo": "Alquila con tranquilidad",
+        "texto": "Nos ocupamos de todo: inquilino solvente, contrato sólido y gestión del día a día. Tu alquiler, resuelto.",
+        "boton": "Quiero alquilar mi piso",
+        "placeholder": "Zona, tipo de vivienda y si está amueblada."
+      },
+      "alojamiento-turistico": {
+        "etiqueta": "Empieza aquí",
+        "titulo": "Rentabiliza tu vivienda turística",
+        "texto": "Nuestro trabajo es que tu vivienda cumpla la normativa de tu comunidad autónoma y genere ingresos, mientras gestionamos reservas, huéspedes y mantenimiento.",
+        "boton": "Quiero gestionar mi piso turístico",
+        "placeholder": "Ubicación, capacidad y si ya tiene número de registro."
+      },
+      "inversion": {
+        "etiqueta": "Empieza aquí",
+        "titulo": "Hagamos crecer tu capital",
+        "texto": "Cuéntanos tus objetivos y estudiaremos las oportunidades que mejor encajan contigo, con sus números claros.",
+        "boton": "Quiero invertir",
+        "placeholder": "Capital disponible, tipo de inmueble y rentabilidad que buscas."
+      },
+      "valorar": {
+        "etiqueta": "Empieza aquí",
+        "titulo": "Descubre el valor real de tu casa",
+        "texto": "Cuéntanos sobre tu vivienda y estudiaremos su valor con ventas reales de tu zona. Te lo explicaremos punto por punto y te propondremos el mejor camino para tu objetivo.",
+        "boton": "Quiero saber cuánto vale"
+      },
+      "agentes": {
+        "etiqueta": "Únete al equipo",
+        "titulo": "Crezcamos juntos",
+        "texto": "Cuéntanos tu experiencia y lo que buscas. Queremos conocerte y mostrarte cómo puedes desarrollar tu carrera en Estudio 33.",
+        "boton": "Quiero unirme al equipo"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "etiqueta": "Agencia inmobiliaria · Asturias y toda España",
+      "resaltar": "en las manos adecuadas",
+      "subtitulo": "Estudiamos tu vivienda, diseñamos la estrategia que mejor encaja contigo y nos ocupamos de todo hasta la firma ante notario. Nuestro trabajo es que tú solo tengas que decidir.",
+      "cta1": "Quiero vender mi casa",
+      "cta2": "Busco vivienda",
+      "cta2_id": "compra-de-viviendas",
+      "nota": "Valoración con datos reales · Un asesor dedicado · Oviedo · Gijón · Avilés · toda España",
+      "placa_arriba": "Asturias",
+      "placa_abajo": "España"
+    },
+    "caminos": {
+      "etiqueta": "Por dónde empezamos",
+      "titulo": "Cada cliente llega con un objetivo distinto",
+      "texto": "Elige el tuyo. Nuestro trabajo es encontrar la mejor forma de hacerlo realidad.",
+      "items": [
+        {
+          "id": "vender-piso",
+          "titulo": "Vender tu casa",
+          "texto": "Nos comprometemos a conseguir el mejor precio posible, en el plazo que necesitas.",
+          "puntos": [
+            "Valoración con ventas reales de tu zona",
+            "Fotografía, plano y anuncio profesionales",
+            "Visitas solo con compradores filtrados",
+            "Documentación revisada antes de publicar"
+          ],
+          "cta": "Quiero vender mi casa",
+          "consulta": "vender-vivienda"
+        },
+        {
+          "id": "comprar-piso",
+          "titulo": "Encontrar tu casa",
+          "texto": "Hacemos nuestra tu búsqueda: la vivienda adecuada, al precio justo y con la operación segura.",
+          "puntos": [
+            "Búsqueda según tu presupuesto y prioridades",
+            "Revisión de cargas, deudas y estado legal",
+            "Negociación del precio en tu nombre",
+            "Acompañamiento en hipoteca y notaría"
+          ],
+          "cta": "Busco vivienda",
+          "consulta": "comprar"
+        },
+        {
+          "id": "inversion-inmobiliaria",
+          "titulo": "Invertir con criterio",
+          "texto": "Estudiamos cada oportunidad contigo para que tu capital crezca con criterio.",
+          "puntos": [
+            "Estudio de rentabilidad antes de comprar",
+            "Viviendas, locales, garajes y naves",
+            "Gestión del alquiler tras la compra",
+            "Normativa de vivienda turística al día"
+          ],
+          "cta": "Quiero invertir",
+          "consulta": "inversion"
+        }
+      ]
+    },
+    "compromisos": {
+      "etiqueta": "Nuestro compromiso",
+      "titulo": "Nuestro compromiso es resolver",
+      "texto": "Cada operación es un proyecto que hacemos nuestro. Esto es lo que aportamos desde el primer día.",
+      "items": [
+        {
+          "titulo": "Un único asesor",
+          "texto": "Una persona responsable de tu operación, con nombre y teléfono directo. No pasarás de mano en mano."
+        },
+        {
+          "titulo": "Información en cada paso",
+          "texto": "Te contamos visitas, opiniones de los compradores y ofertas a medida que llegan, para que decidas con datos."
+        },
+        {
+          "titulo": "Operaciones seguras",
+          "texto": "Revisamos la documentación antes de publicar y antes de firmar: cargas, certificados y deudas con la comunidad."
+        },
+        {
+          "titulo": "Normativa al día",
+          "texto": "Cumplimos escrupulosamente la normativa vigente en cada comunidad autónoma donde prestamos servicio, también la de vivienda de uso turístico."
+        }
+      ]
+    },
+    "servicios": {
+      "etiqueta": "Servicios",
+      "titulo": "Además, todo lo que necesita una propiedad",
+      "texto": "Sea cual sea tu necesidad, estudiaremos la mejor forma de resolverla.",
+      "items": [
+        {
+          "id": "valoracion-vivienda",
+          "texto": "Precio razonado con ventas reales de tu zona, explicado punto por punto."
+        },
+        {
+          "id": "gestion-alquiler",
+          "texto": "Inquilino seleccionado, contrato sólido y gestión del día a día."
+        },
+        {
+          "id": "gestion-pisos-turisticos",
+          "texto": "Alta, normativa, reservas y huéspedes de tu vivienda turística."
+        },
+        {
+          "id": "inversion-inmobiliaria",
+          "texto": "Oportunidades con análisis de rentabilidad y riesgos."
+        },
+        {
+          "id": "locales-comerciales",
+          "texto": "Venta y alquiler de locales según la actividad y la ubicación."
+        },
+        {
+          "id": "plazas-de-garaje",
+          "texto": "Compraventa y alquiler de plazas y trasteros."
+        },
+        {
+          "id": "terrenos-y-parcelas",
+          "texto": "Urbanismo, edificabilidad y venta de suelo y parcelas."
+        },
+        {
+          "id": "naves-industriales",
+          "texto": "Naves y suelo industrial en los principales polígonos."
+        }
+      ]
+    },
+    "zonas": {
+      "etiqueta": "Dónde trabajamos",
+      "titulo": "Raíces en Asturias, servicio en toda España",
+      "texto": "Conocemos cada barrio de Oviedo, Gijón, Avilés, Mieres, Siero y Llanera: qué se vende, a qué precio y qué busca quien compra.",
+      "nacional": "¿Tu propiedad o tu proyecto está fuera de Asturias? Cuéntanoslo: atendemos operaciones en todo el territorio nacional, aplicando la normativa de cada comunidad autónoma."
+    },
+    "estudio": {
+      "etiqueta": "Más que una agencia",
+      "titulo": "Un estudio que forma e informa",
+      "texto": "Comprar o vender una casa no debería ser un salto al vacío. Por eso compartimos lo que sabemos y formamos a quienes quieren crecer con nosotros.",
+      "items": [
+        {
+          "etiqueta": "Estudio 33 Academy",
+          "titulo": "Formamos a los asesores del futuro",
+          "texto": "Formación práctica para quienes quieren dedicarse al sector con rigor: valoración, comercialización, negociación y normativa.",
+          "cta": "Conocer la Academy",
+          "id": "academy"
+        },
+        {
+          "etiqueta": "Estudio 33 Journal",
+          "titulo": "Mercado, normativa y guías claras",
+          "texto": "Precios por barrio, cambios legales y guías paso a paso para vender, comprar o alquilar. Y cada mes, lo esencial en La 33, nuestra newsletter.",
+          "cta": "Próximamente"
+        }
+      ]
+    }
+  },
+  "relaciones": {
+    "principal": "vender-piso",
+    "valoracion": "valoracion-vivienda"
+  },
+  "formularios": {
+    "propietarios": {
+      "archivo": "bienvenida-propietarios.html",
+      "nombre": "Propietarios",
+      "asunto": "[ESTUDIO 33] Propietario",
+      "title": "Bienvenido, propietario | Estudio 33 Real Estate",
+      "description": "Cuéntanos qué quieres hacer con tu propiedad y un asesor de Estudio 33 te llamará.",
+      "bienvenida": {
+        "etiqueta": "Propietarios · Estudio 33 Real Estate",
+        "titulo": "Bienvenido a Estudio 33. Tu propiedad ya está en buenas manos.",
+        "texto": "Nuestro compromiso es encontrar la mejor solución para ti y para tu propiedad. Responde unas preguntas sencillas y tu asesor llegará a la llamada sabiendo cómo ayudarte.",
+        "puntos": [
+          "Un asesor dedicado a tu propiedad",
+          "Un plan pensado para tus objetivos",
+          "Acompañamiento hasta el final"
+        ],
+        "boton": "Empezar"
+      },
+      "preguntas": [
+        {
+          "tipo": "opciones",
+          "campo": "objetivo",
+          "desde_url": true,
+          "etiqueta_envio": "Qué quiere hacer",
+          "corto": "Objetivo",
+          "pregunta": "¿Qué te gustaría hacer con tu propiedad?",
+          "opciones": [
+            {
+              "valor": "vender",
+              "etiqueta": "Venderla"
+            },
+            {
+              "valor": "alquilar",
+              "etiqueta": "Alquilarla"
+            },
+            {
+              "valor": "turistico",
+              "etiqueta": "Gestionarla como vivienda turística"
+            },
+            {
+              "valor": "valorar",
+              "etiqueta": "Saber cuánto vale"
+            },
+            {
+              "valor": "asesoramiento",
+              "etiqueta": "Aún no lo sé, necesito consejo"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "inmueble",
+          "etiqueta_envio": "Tipo de inmueble",
+          "corto": "Inmueble",
+          "pregunta": "¿Qué tipo de inmueble es?",
+          "opciones": [
+            {
+              "valor": "piso",
+              "etiqueta": "Piso o apartamento"
+            },
+            {
+              "valor": "casa",
+              "etiqueta": "Casa o chalet"
+            },
+            {
+              "valor": "local",
+              "etiqueta": "Local comercial"
+            },
+            {
+              "valor": "garaje",
+              "etiqueta": "Plaza de garaje o trastero"
+            },
+            {
+              "valor": "terreno",
+              "etiqueta": "Terreno o parcela"
+            },
+            {
+              "valor": "nave",
+              "etiqueta": "Nave industrial"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "zona",
+          "etiqueta_envio": "Ubicación",
+          "corto": "Ubicación",
+          "pregunta": "¿Dónde está?",
+          "opciones": [
+            {
+              "valor": "oviedo",
+              "etiqueta": "Oviedo"
+            },
+            {
+              "valor": "gijón",
+              "etiqueta": "Gijón"
+            },
+            {
+              "valor": "avilés",
+              "etiqueta": "Avilés"
+            },
+            {
+              "valor": "mieres",
+              "etiqueta": "Mieres"
+            },
+            {
+              "valor": "siero",
+              "etiqueta": "Siero"
+            },
+            {
+              "valor": "llanera",
+              "etiqueta": "Llanera"
+            },
+            {
+              "valor": "otro-lugar-de-asturias",
+              "etiqueta": "Otro lugar de Asturias"
+            },
+            {
+              "valor": "fuera-de-asturias",
+              "etiqueta": "Fuera de Asturias"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "plazo",
+          "etiqueta_envio": "Plazo",
+          "corto": "Plazo",
+          "pregunta": "¿Cuándo te gustaría dar el paso?",
+          "opciones": [
+            {
+              "valor": "ya",
+              "etiqueta": "Lo antes posible"
+            },
+            {
+              "valor": "3m",
+              "etiqueta": "En los próximos 3 meses"
+            },
+            {
+              "valor": "6m",
+              "etiqueta": "Dentro de 3 a 6 meses"
+            },
+            {
+              "valor": "explorando",
+              "etiqueta": "Sin prisa, quiero informarme bien"
+            }
+          ]
+        },
+        {
+          "tipo": "texto",
+          "campo": "nombre",
+          "etiqueta_envio": "Nombre",
+          "corto": "Nombre",
+          "pregunta": "¿Cómo te llamas?",
+          "ayuda": "Para que tu asesor sepa a quién saluda.",
+          "marcador": "Tu nombre"
+        },
+        {
+          "tipo": "telefono",
+          "campo": "telefono",
+          "etiqueta_envio": "Teléfono",
+          "corto": "Teléfono",
+          "pregunta": "Encantados, {nombre}. ¿En qué teléfono te llamamos?",
+          "ayuda": "Solo lo usaremos para hablar de tu propiedad.",
+          "marcador": "600 000 000"
+        },
+        {
+          "tipo": "opciones",
+          "campo": "horario",
+          "etiqueta_envio": "Mejor momento para llamar",
+          "corto": "Llamada",
+          "pregunta": "¿Cuándo te viene mejor que te llamemos?",
+          "opciones": [
+            {
+              "valor": "manana",
+              "etiqueta": "Por la mañana"
+            },
+            {
+              "valor": "tarde",
+              "etiqueta": "Por la tarde"
+            },
+            {
+              "valor": "indiferente",
+              "etiqueta": "Cuando sea, estoy disponible"
+            },
+            {
+              "valor": "whatsapp",
+              "etiqueta": "Prefiero que me escribáis por WhatsApp"
+            }
+          ]
+        },
+        {
+          "tipo": "email",
+          "campo": "email",
+          "etiqueta_envio": "Email",
+          "corto": "Email",
+          "pregunta": "¿Quieres recibir también la información por email?",
+          "ayuda": "Te enviaremos solo lo relacionado con tu solicitud.",
+          "marcador": "tu@email.com",
+          "obligatorio": false
+        },
+        {
+          "tipo": "final",
+          "campo": "final",
+          "pregunta": "Todo listo, {nombre}. ¿Lo enviamos?",
+          "ayuda": "Un último paso: confirma que aceptas la política de privacidad."
+        }
+      ],
+      "gracias": {
+        "titulo": "Gracias, {nombre}. Ya formas parte de Estudio 33.",
+        "texto": "Desde este momento trabajamos para ti. Tu asesor está revisando tu solicitud y te llamará muy pronto para conocer tu propiedad y proponerte los siguientes pasos.",
+        "puntos": [
+          "Estudiamos tu caso con datos reales de tu zona",
+          "Te llamamos en el momento que nos has indicado",
+          "Te proponemos la mejor solución, con toda la información"
+        ],
+        "boton": "Volver a la web"
+      }
+    },
+    "compradores": {
+      "archivo": "bienvenida-compradores.html",
+      "nombre": "Compradores",
+      "asunto": "[ESTUDIO 33] Comprador",
+      "title": "Bienvenido | Encontremos tu casa · Estudio 33 Real Estate",
+      "description": "Cuéntanos qué vivienda buscas y un asesor de Estudio 33 te acompañará en la búsqueda.",
+      "bienvenida": {
+        "etiqueta": "Compradores · Estudio 33 Real Estate",
+        "titulo": "Bienvenido a Estudio 33. Vamos a encontrar tu casa juntos.",
+        "texto": "Hacemos nuestra tu búsqueda. Responde unas preguntas rápidas y tu asesor empezará a trabajar con tus prioridades en mente.",
+        "puntos": [
+          "Búsqueda a tu medida",
+          "Operación revisada de principio a fin",
+          "Acompañamiento hasta la entrega de llaves"
+        ],
+        "boton": "Empezar"
+      },
+      "preguntas": [
+        {
+          "tipo": "opciones",
+          "campo": "busca",
+          "etiqueta_envio": "Qué busca",
+          "corto": "Busca",
+          "pregunta": "¿Qué estás buscando?",
+          "opciones": [
+            {
+              "valor": "piso",
+              "etiqueta": "Piso o apartamento"
+            },
+            {
+              "valor": "casa",
+              "etiqueta": "Casa o chalet"
+            },
+            {
+              "valor": "local",
+              "etiqueta": "Local comercial"
+            },
+            {
+              "valor": "garaje",
+              "etiqueta": "Plaza de garaje"
+            },
+            {
+              "valor": "terreno",
+              "etiqueta": "Terreno o parcela"
+            },
+            {
+              "valor": "nave",
+              "etiqueta": "Nave industrial"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "zona",
+          "etiqueta_envio": "Zona",
+          "corto": "Zona",
+          "pregunta": "¿En qué zona te gustaría vivir o comprar?",
+          "opciones": [
+            {
+              "valor": "oviedo",
+              "etiqueta": "Oviedo"
+            },
+            {
+              "valor": "gijón",
+              "etiqueta": "Gijón"
+            },
+            {
+              "valor": "avilés",
+              "etiqueta": "Avilés"
+            },
+            {
+              "valor": "mieres",
+              "etiqueta": "Mieres"
+            },
+            {
+              "valor": "siero",
+              "etiqueta": "Siero"
+            },
+            {
+              "valor": "llanera",
+              "etiqueta": "Llanera"
+            },
+            {
+              "valor": "otro-lugar-de-asturias",
+              "etiqueta": "Otro lugar de Asturias"
+            },
+            {
+              "valor": "fuera-de-asturias",
+              "etiqueta": "Fuera de Asturias"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "presupuesto",
+          "etiqueta_envio": "Presupuesto",
+          "corto": "Presupuesto",
+          "pregunta": "¿Con qué presupuesto aproximado cuentas?",
+          "opciones": [
+            {
+              "valor": "<100",
+              "etiqueta": "Hasta 100.000 €"
+            },
+            {
+              "valor": "100-200",
+              "etiqueta": "De 100.000 a 200.000 €"
+            },
+            {
+              "valor": "200-300",
+              "etiqueta": "De 200.000 a 300.000 €"
+            },
+            {
+              "valor": ">300",
+              "etiqueta": "Más de 300.000 €"
+            },
+            {
+              "valor": "nose",
+              "etiqueta": "Aún no lo tengo claro"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "financiacion",
+          "etiqueta_envio": "Financiación",
+          "corto": "Financiación",
+          "pregunta": "¿Cómo piensas financiar la compra?",
+          "opciones": [
+            {
+              "valor": "hipoteca",
+              "etiqueta": "Con hipoteca"
+            },
+            {
+              "valor": "ahorros",
+              "etiqueta": "Con ahorros propios"
+            },
+            {
+              "valor": "venta",
+              "etiqueta": "Vendiendo mi vivienda actual"
+            },
+            {
+              "valor": "nose",
+              "etiqueta": "Aún no lo sé, necesito orientación"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "plazo",
+          "etiqueta_envio": "Plazo",
+          "corto": "Plazo",
+          "pregunta": "¿Para cuándo te gustaría tenerla?",
+          "opciones": [
+            {
+              "valor": "ya",
+              "etiqueta": "Lo antes posible"
+            },
+            {
+              "valor": "6m",
+              "etiqueta": "En los próximos 6 meses"
+            },
+            {
+              "valor": "sinprisa",
+              "etiqueta": "Sin prisa, si aparece la adecuada"
+            }
+          ]
+        },
+        {
+          "tipo": "texto",
+          "campo": "nombre",
+          "etiqueta_envio": "Nombre",
+          "corto": "Nombre",
+          "pregunta": "¿Cómo te llamas?",
+          "ayuda": "Para que tu asesor sepa a quién saluda.",
+          "marcador": "Tu nombre"
+        },
+        {
+          "tipo": "telefono",
+          "campo": "telefono",
+          "etiqueta_envio": "Teléfono",
+          "corto": "Teléfono",
+          "pregunta": "Encantados, {nombre}. ¿En qué teléfono te llamamos?",
+          "ayuda": "Te llamaremos para afinar la búsqueda contigo.",
+          "marcador": "600 000 000"
+        },
+        {
+          "tipo": "opciones",
+          "campo": "horario",
+          "etiqueta_envio": "Mejor momento para llamar",
+          "corto": "Llamada",
+          "pregunta": "¿Cuándo te viene mejor que te llamemos?",
+          "opciones": [
+            {
+              "valor": "manana",
+              "etiqueta": "Por la mañana"
+            },
+            {
+              "valor": "tarde",
+              "etiqueta": "Por la tarde"
+            },
+            {
+              "valor": "indiferente",
+              "etiqueta": "Cuando sea, estoy disponible"
+            },
+            {
+              "valor": "whatsapp",
+              "etiqueta": "Prefiero que me escribáis por WhatsApp"
+            }
+          ]
+        },
+        {
+          "tipo": "email",
+          "campo": "email",
+          "etiqueta_envio": "Email",
+          "corto": "Email",
+          "pregunta": "¿Quieres recibir también la información por email?",
+          "ayuda": "Te enviaremos solo lo relacionado con tu solicitud.",
+          "marcador": "tu@email.com",
+          "obligatorio": false
+        },
+        {
+          "tipo": "final",
+          "campo": "final",
+          "pregunta": "Todo listo, {nombre}. ¿Lo enviamos?",
+          "ayuda": "Un último paso: confirma que aceptas la política de privacidad."
+        }
+      ],
+      "gracias": {
+        "titulo": "Gracias, {nombre}. Ya formas parte de Estudio 33.",
+        "texto": "Desde este momento tu búsqueda es también la nuestra. Tu asesor te llamará muy pronto para afinarla contigo y contarte cómo vamos a trabajar juntos.",
+        "puntos": [
+          "Buscamos según tus prioridades, no según lo que haya que colocar",
+          "Revisamos cargas, deudas y estado legal antes de que firmes",
+          "Te acompañamos en la hipoteca y en la notaría"
+        ],
+        "boton": "Volver a la web"
+      }
+    },
+    "inversores": {
+      "archivo": "bienvenida-inversores.html",
+      "nombre": "Inversores",
+      "asunto": "[ESTUDIO 33] Inversor",
+      "title": "Bienvenido, inversor | Estudio 33 Real Estate",
+      "description": "Cuéntanos tu perfil inversor y te presentaremos oportunidades analizadas.",
+      "bienvenida": {
+        "etiqueta": "Inversores · Estudio 33 Real Estate",
+        "titulo": "Bienvenido a Estudio 33. Invirtamos con criterio.",
+        "texto": "Queremos formar parte de tu proyecto de inversión. Con cuatro respuestas sabremos qué oportunidades estudiar para ti.",
+        "puntos": [
+          "Oportunidades con números claros",
+          "Normativa revisada en cada comunidad autónoma",
+          "Gestión del inmueble después de la compra"
+        ],
+        "boton": "Empezar"
+      },
+      "preguntas": [
+        {
+          "tipo": "opciones",
+          "campo": "interes",
+          "etiqueta_envio": "Tipo de inversión",
+          "corto": "Interés",
+          "pregunta": "¿Qué tipo de inversión te interesa?",
+          "opciones": [
+            {
+              "valor": "alquiler",
+              "etiqueta": "Vivienda para alquilar"
+            },
+            {
+              "valor": "turistico",
+              "etiqueta": "Vivienda turística"
+            },
+            {
+              "valor": "local",
+              "etiqueta": "Locales comerciales"
+            },
+            {
+              "valor": "garaje",
+              "etiqueta": "Garajes y trasteros"
+            },
+            {
+              "valor": "industrial",
+              "etiqueta": "Naves o suelo"
+            },
+            {
+              "valor": "abierto",
+              "etiqueta": "Abierto a propuestas"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "capital",
+          "etiqueta_envio": "Capital",
+          "corto": "Capital",
+          "pregunta": "¿Qué capital tienes previsto invertir?",
+          "opciones": [
+            {
+              "valor": "<100",
+              "etiqueta": "Hasta 100.000 €"
+            },
+            {
+              "valor": "100-250",
+              "etiqueta": "De 100.000 a 250.000 €"
+            },
+            {
+              "valor": "250-500",
+              "etiqueta": "De 250.000 a 500.000 €"
+            },
+            {
+              "valor": ">500",
+              "etiqueta": "Más de 500.000 €"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "experiencia",
+          "etiqueta_envio": "Experiencia",
+          "corto": "Experiencia",
+          "pregunta": "¿Cuál es tu experiencia invirtiendo en inmuebles?",
+          "opciones": [
+            {
+              "valor": "primera",
+              "etiqueta": "Sería mi primera inversión"
+            },
+            {
+              "valor": "algunos",
+              "etiqueta": "Ya tengo algún inmueble"
+            },
+            {
+              "valor": "profesional",
+              "etiqueta": "Invierto de forma habitual"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "zona",
+          "etiqueta_envio": "Zona",
+          "corto": "Zona",
+          "pregunta": "¿Dónde te gustaría invertir?",
+          "opciones": [
+            {
+              "valor": "asturias",
+              "etiqueta": "En Asturias"
+            },
+            {
+              "valor": "espana",
+              "etiqueta": "En otra zona de España"
+            },
+            {
+              "valor": "indiferente",
+              "etiqueta": "Donde esté la mejor oportunidad"
+            }
+          ]
+        },
+        {
+          "tipo": "texto",
+          "campo": "nombre",
+          "etiqueta_envio": "Nombre",
+          "corto": "Nombre",
+          "pregunta": "¿Cómo te llamas?",
+          "ayuda": "Para que tu asesor sepa a quién saluda.",
+          "marcador": "Tu nombre"
+        },
+        {
+          "tipo": "telefono",
+          "campo": "telefono",
+          "etiqueta_envio": "Teléfono",
+          "corto": "Teléfono",
+          "pregunta": "Encantados, {nombre}. ¿En qué teléfono te llamamos?",
+          "ayuda": "Te llamaremos para conocer tus objetivos.",
+          "marcador": "600 000 000"
+        },
+        {
+          "tipo": "opciones",
+          "campo": "horario",
+          "etiqueta_envio": "Mejor momento para llamar",
+          "corto": "Llamada",
+          "pregunta": "¿Cuándo te viene mejor que te llamemos?",
+          "opciones": [
+            {
+              "valor": "manana",
+              "etiqueta": "Por la mañana"
+            },
+            {
+              "valor": "tarde",
+              "etiqueta": "Por la tarde"
+            },
+            {
+              "valor": "indiferente",
+              "etiqueta": "Cuando sea, estoy disponible"
+            },
+            {
+              "valor": "whatsapp",
+              "etiqueta": "Prefiero que me escribáis por WhatsApp"
+            }
+          ]
+        },
+        {
+          "tipo": "email",
+          "campo": "email",
+          "etiqueta_envio": "Email",
+          "corto": "Email",
+          "pregunta": "¿Quieres recibir también la información por email?",
+          "ayuda": "Te enviaremos solo lo relacionado con tu solicitud.",
+          "marcador": "tu@email.com",
+          "obligatorio": false
+        },
+        {
+          "tipo": "final",
+          "campo": "final",
+          "pregunta": "Todo listo, {nombre}. ¿Lo enviamos?",
+          "ayuda": "Un último paso: confirma que aceptas la política de privacidad."
+        }
+      ],
+      "gracias": {
+        "titulo": "Gracias, {nombre}. Ya formas parte de Estudio 33.",
+        "texto": "Desde este momento estudiamos oportunidades para ti. Tu asesor te llamará muy pronto para entender tus objetivos y proponerte el mejor camino.",
+        "puntos": [
+          "Cada oportunidad, con su análisis de rentabilidad y riesgos",
+          "Normativa revisada en cada comunidad autónoma",
+          "Gestión del inmueble después de la compra, si la necesitas"
+        ],
+        "boton": "Volver a la web"
+      }
+    },
+    "academy": {
+      "archivo": "bienvenida-academy.html",
+      "nombre": "Academy",
+      "asunto": "[ESTUDIO 33] Academy",
+      "title": "Bienvenido a la Academy | Estudio 33 Real Estate",
+      "description": "Solicita información de Estudio 33 Academy, la formación práctica para asesores inmobiliarios.",
+      "bienvenida": {
+        "etiqueta": "Estudio 33 Academy",
+        "titulo": "Bienvenido a Estudio 33 Academy. Aquí empieza tu carrera inmobiliaria.",
+        "texto": "Queremos formar parte de tu crecimiento. Cuéntanos de dónde partes y te mostraremos cómo la Academy puede impulsarte.",
+        "puntos": [
+          "Formación práctica, con casos reales",
+          "Mentores que trabajan cada día en el sector",
+          "Una comunidad que crece contigo"
+        ],
+        "boton": "Empezar"
+      },
+      "preguntas": [
+        {
+          "tipo": "opciones",
+          "campo": "situacion",
+          "etiqueta_envio": "Situación",
+          "corto": "Situación",
+          "pregunta": "¿Cuál es tu punto de partida?",
+          "opciones": [
+            {
+              "valor": "cero",
+              "etiqueta": "Empiezo desde cero"
+            },
+            {
+              "valor": "otro-sector",
+              "etiqueta": "Vengo de otro sector"
+            },
+            {
+              "valor": "inmobiliario",
+              "etiqueta": "Ya trabajo en el sector inmobiliario"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "interes",
+          "etiqueta_envio": "Qué quiere aprender",
+          "corto": "Interés",
+          "pregunta": "¿Qué te gustaría dominar primero?",
+          "opciones": [
+            {
+              "valor": "valoracion",
+              "etiqueta": "Valorar inmuebles"
+            },
+            {
+              "valor": "captacion",
+              "etiqueta": "Captar y vender propiedades"
+            },
+            {
+              "valor": "negociacion",
+              "etiqueta": "Negociar y cerrar operaciones"
+            },
+            {
+              "valor": "normativa",
+              "etiqueta": "Normativa y documentación"
+            },
+            {
+              "valor": "marketing",
+              "etiqueta": "Marketing inmobiliario"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "formato",
+          "etiqueta_envio": "Formato preferido",
+          "corto": "Formato",
+          "pregunta": "¿Cómo prefieres formarte?",
+          "opciones": [
+            {
+              "valor": "presencial",
+              "etiqueta": "Presencial, en Asturias"
+            },
+            {
+              "valor": "online",
+              "etiqueta": "Online"
+            },
+            {
+              "valor": "mixto",
+              "etiqueta": "Me adapto a ambos"
+            }
+          ]
+        },
+        {
+          "tipo": "texto",
+          "campo": "nombre",
+          "etiqueta_envio": "Nombre",
+          "corto": "Nombre",
+          "pregunta": "¿Cómo te llamas?",
+          "ayuda": "Para que tu asesor sepa a quién saluda.",
+          "marcador": "Tu nombre"
+        },
+        {
+          "tipo": "telefono",
+          "campo": "telefono",
+          "etiqueta_envio": "Teléfono",
+          "corto": "Teléfono",
+          "pregunta": "Encantados, {nombre}. ¿En qué teléfono te llamamos?",
+          "ayuda": "Te llamaremos para contarte cómo funciona la Academy.",
+          "marcador": "600 000 000"
+        },
+        {
+          "tipo": "opciones",
+          "campo": "horario",
+          "etiqueta_envio": "Mejor momento para llamar",
+          "corto": "Llamada",
+          "pregunta": "¿Cuándo te viene mejor que te llamemos?",
+          "opciones": [
+            {
+              "valor": "manana",
+              "etiqueta": "Por la mañana"
+            },
+            {
+              "valor": "tarde",
+              "etiqueta": "Por la tarde"
+            },
+            {
+              "valor": "indiferente",
+              "etiqueta": "Cuando sea, estoy disponible"
+            },
+            {
+              "valor": "whatsapp",
+              "etiqueta": "Prefiero que me escribáis por WhatsApp"
+            }
+          ]
+        },
+        {
+          "tipo": "email",
+          "campo": "email",
+          "etiqueta_envio": "Email",
+          "corto": "Email",
+          "pregunta": "¿Quieres recibir también la información por email?",
+          "ayuda": "Te enviaremos solo lo relacionado con tu solicitud.",
+          "marcador": "tu@email.com",
+          "obligatorio": false
+        },
+        {
+          "tipo": "final",
+          "campo": "final",
+          "pregunta": "Todo listo, {nombre}. ¿Lo enviamos?",
+          "ayuda": "Un último paso: confirma que aceptas la política de privacidad."
+        }
+      ],
+      "gracias": {
+        "titulo": "Gracias, {nombre}. Ya formas parte de Estudio 33.",
+        "texto": "Esta es tu oportunidad de crecer y queremos acompañarte. Te llamaremos muy pronto para conocerte y diseñar contigo tu camino en la Academy.",
+        "puntos": [
+          "Formación práctica con operaciones reales",
+          "Mentores que trabajan cada día en el sector",
+          "Una comunidad que crece contigo"
+        ],
+        "boton": "Volver a la web"
+      }
+    },
+    "agentes": {
+      "archivo": "bienvenida-agentes.html",
+      "nombre": "Agentes",
+      "asunto": "[ESTUDIO 33] Agente / Únete al equipo",
+      "title": "Únete al equipo | Estudio 33 Real Estate",
+      "description": "Desarrolla tu carrera como asesor inmobiliario en Estudio 33 Real Estate.",
+      "bienvenida": {
+        "etiqueta": "Únete al equipo · Estudio 33 Real Estate",
+        "titulo": "Bienvenido a Estudio 33. Un lugar para crecer como profesional.",
+        "texto": "Esta es tu oportunidad de crecer con marca, método y respaldo. Cuéntanos un poco de ti.",
+        "puntos": [
+          "Una marca y un método que respaldan tu trabajo",
+          "Formación continua en la Academy",
+          "Un equipo que comparte lo que sabe"
+        ],
+        "boton": "Empezar"
+      },
+      "preguntas": [
+        {
+          "tipo": "opciones",
+          "campo": "experiencia",
+          "etiqueta_envio": "Experiencia",
+          "corto": "Experiencia",
+          "pregunta": "¿Cuánta experiencia tienes en el sector?",
+          "opciones": [
+            {
+              "valor": "ninguna",
+              "etiqueta": "Ninguna, quiero empezar"
+            },
+            {
+              "valor": "<2",
+              "etiqueta": "Menos de 2 años"
+            },
+            {
+              "valor": "2-5",
+              "etiqueta": "Entre 2 y 5 años"
+            },
+            {
+              "valor": ">5",
+              "etiqueta": "Más de 5 años"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "situacion",
+          "etiqueta_envio": "Situación actual",
+          "corto": "Situación",
+          "pregunta": "¿Cuál es tu situación ahora mismo?",
+          "opciones": [
+            {
+              "valor": "independiente",
+              "etiqueta": "Trabajo como agente independiente"
+            },
+            {
+              "valor": "agencia",
+              "etiqueta": "Estoy en otra agencia"
+            },
+            {
+              "valor": "cambio",
+              "etiqueta": "Busco un cambio de sector"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "zona",
+          "etiqueta_envio": "Zona",
+          "corto": "Zona",
+          "pregunta": "¿En qué zona te gustaría trabajar?",
+          "opciones": [
+            {
+              "valor": "oviedo",
+              "etiqueta": "Oviedo"
+            },
+            {
+              "valor": "gijón",
+              "etiqueta": "Gijón"
+            },
+            {
+              "valor": "avilés",
+              "etiqueta": "Avilés"
+            },
+            {
+              "valor": "mieres",
+              "etiqueta": "Mieres"
+            },
+            {
+              "valor": "siero",
+              "etiqueta": "Siero"
+            },
+            {
+              "valor": "llanera",
+              "etiqueta": "Llanera"
+            },
+            {
+              "valor": "otro-lugar-de-asturias",
+              "etiqueta": "Otro lugar de Asturias"
+            },
+            {
+              "valor": "fuera-de-asturias",
+              "etiqueta": "Fuera de Asturias"
+            }
+          ]
+        },
+        {
+          "tipo": "opciones",
+          "campo": "busca",
+          "etiqueta_envio": "Qué busca",
+          "corto": "Busca",
+          "pregunta": "¿Qué es lo que más valoras de un equipo?",
+          "opciones": [
+            {
+              "valor": "formacion",
+              "etiqueta": "Formación y mentoría"
+            },
+            {
+              "valor": "marca",
+              "etiqueta": "Una marca que respalde mi trabajo"
+            },
+            {
+              "valor": "metodo",
+              "etiqueta": "Método y herramientas"
+            },
+            {
+              "valor": "comunidad",
+              "etiqueta": "Compañeros con los que crecer"
+            }
+          ]
+        },
+        {
+          "tipo": "texto",
+          "campo": "nombre",
+          "etiqueta_envio": "Nombre",
+          "corto": "Nombre",
+          "pregunta": "¿Cómo te llamas?",
+          "ayuda": "Para que tu asesor sepa a quién saluda.",
+          "marcador": "Tu nombre"
+        },
+        {
+          "tipo": "telefono",
+          "campo": "telefono",
+          "etiqueta_envio": "Teléfono",
+          "corto": "Teléfono",
+          "pregunta": "Encantados, {nombre}. ¿En qué teléfono te llamamos?",
+          "ayuda": "Te llamaremos para conocerte.",
+          "marcador": "600 000 000"
+        },
+        {
+          "tipo": "opciones",
+          "campo": "horario",
+          "etiqueta_envio": "Mejor momento para llamar",
+          "corto": "Llamada",
+          "pregunta": "¿Cuándo te viene mejor que te llamemos?",
+          "opciones": [
+            {
+              "valor": "manana",
+              "etiqueta": "Por la mañana"
+            },
+            {
+              "valor": "tarde",
+              "etiqueta": "Por la tarde"
+            },
+            {
+              "valor": "indiferente",
+              "etiqueta": "Cuando sea, estoy disponible"
+            },
+            {
+              "valor": "whatsapp",
+              "etiqueta": "Prefiero que me escribáis por WhatsApp"
+            }
+          ]
+        },
+        {
+          "tipo": "email",
+          "campo": "email",
+          "etiqueta_envio": "Email",
+          "corto": "Email",
+          "pregunta": "¿Quieres recibir también la información por email?",
+          "ayuda": "Te enviaremos solo lo relacionado con tu solicitud.",
+          "marcador": "tu@email.com",
+          "obligatorio": false
+        },
+        {
+          "tipo": "final",
+          "campo": "final",
+          "pregunta": "Todo listo, {nombre}. ¿Lo enviamos?",
+          "ayuda": "Un último paso: confirma que aceptas la política de privacidad."
+        }
+      ],
+      "gracias": {
+        "titulo": "Gracias, {nombre}. Ya formas parte de Estudio 33.",
+        "texto": "Queremos conocerte. Te llamaremos muy pronto para contarte cómo trabajamos y cómo puedes crecer con nosotros.",
+        "puntos": [
+          "Una conversación para conocernos",
+          "Te explicamos el método 33 y la Academy",
+          "Diseñamos juntos tu lugar en el equipo"
+        ],
+        "boton": "Volver a la web"
+      }
+    }
+  }
+}
