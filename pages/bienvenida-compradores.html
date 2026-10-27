@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bienvenido | Encontremos tu casa · Estudio 33 Real Estate</title>
+<meta name="description" content="Cuéntanos qué vivienda buscas y un asesor de Estudio 33 te acompañará en la búsqueda.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" href="/fonts/gloock-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/hanken-grotesk-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/formulario.css">
+</head>
+<body class="cuerpo-form">
+<div class="form-pantalla">
+  <div class="form-barra" aria-hidden="true"><span id="progreso"></span></div>
+  <header class="form-cab">
+    <a class="logo" href="/" aria-label="Estudio 33 Real Estate, ir al inicio"><span class="placa" aria-hidden="true">33</span><span class="logo__txt"><b>Estudio 33</b><small>Real Estate</small></span></a>
+    <a class="form-cerrar" href="/" aria-label="Salir del formulario y volver a la web">Salir</a>
+  </header>
+  <main class="escena" id="escena"></main>
+  <footer class="form-pie">
+    <button class="enlace-suave" id="atras" type="button" hidden>← Atrás</button>
+    <button class="pildora pildora--grande" id="siguiente" type="button">Empezar</button>
+  </footer>
+  <div class="hp" aria-hidden="true"><label>No rellenar <input type="checkbox" id="botcheck" tabindex="-1" autocomplete="off"></label></div>
+</div>
+<noscript><p style="padding:2rem">Para completar este formulario necesitas activar JavaScript. También puedes llamarnos o escribirnos por WhatsApp al 642 32 27 17.</p></noscript>
+<script type="application/json" id="config-formulario">{"endpoint":"https://api.web3forms.com/submit","access_key":"90d1b96c-e863-48ec-b402-04eb11940f67","whatsapp":"34642322717","telefono_visible":"642 32 27 17","privacidad":"/politicas-privacidad.html","texto_enviar":"Enviar mi solicitud","nombre":"Compradores","asunto":"[ESTUDIO 33] Comprador","bienvenida":{"etiqueta":"Compradores · Estudio 33 Real Estate","titulo":"Bienvenido a Estudio 33. Vamos a encontrar tu casa juntos.","texto":"Hacemos nuestra tu búsqueda. Responde unas preguntas rápidas y tu asesor empezará a trabajar con tus prioridades en mente.","puntos":["Búsqueda a tu medida","Operación revisada de principio a fin","Acompañamiento hasta la entrega de llaves"],"boton":"Empezar"},"preguntas":[{"tipo":"opciones","campo":"busca","etiqueta_envio":"Qué busca","corto":"Busca","pregunta":"¿Qué estás buscando?","opciones":[{"valor":"piso","etiqueta":"Piso o apartamento"},{"valor":"casa","etiqueta":"Casa o chalet"},{"valor":"local","etiqueta":"Local comercial"},{"valor":"garaje","etiqueta":"Plaza de garaje"},{"valor":"terreno","etiqueta":"Terreno o parcela"},{"valor":"nave","etiqueta":"Nave industrial"}]},{"tipo":"opciones","campo":"zona","etiqueta_envio":"Zona","corto":"Zona","pregunta":"¿En qué zona te gustaría vivir o comprar?","opciones":[{"valor":"oviedo","etiqueta":"Oviedo"},{"valor":"gijón","etiqueta":"Gijón"},{"valor":"avilés","etiqueta":"Avilés"},{"valor":"mieres","etiqueta":"Mieres"},{"valor":"siero","etiqueta":"Siero"},{"valor":"llanera","etiqueta":"Llanera"},{"valor":"otro-lugar-de-asturias","etiqueta":"Otro lugar de Asturias"},{"valor":"fuera-de-asturias","etiqueta":"Fuera de Asturias"}]},{"tipo":"opciones","campo":"presupuesto","etiqueta_envio":"Presupuesto","corto":"Presupuesto","pregunta":"¿Con qué presupuesto aproximado cuentas?","opciones":[{"valor":"\u003c100","etiqueta":"Hasta 100.000 €"},{"valor":"100-200","etiqueta":"De 100.000 a 200.000 €"},{"valor":"200-300","etiqueta":"De 200.000 a 300.000 €"},{"valor":">300","etiqueta":"Más de 300.000 €"},{"valor":"nose","etiqueta":"Aún no lo tengo claro"}]},{"tipo":"opciones","campo":"financiacion","etiqueta_envio":"Financiación","corto":"Financiación","pregunta":"¿Cómo piensas financiar la compra?","opciones":[{"valor":"hipoteca","etiqueta":"Con hipoteca"},{"valor":"ahorros","etiqueta":"Con ahorros propios"},{"valor":"venta","etiqueta":"Vendiendo mi vivienda actual"},{"valor":"nose","etiqueta":"Aún no lo sé, necesito orientación"}]},{"tipo":"opciones","campo":"plazo","etiqueta_envio":"Plazo","corto":"Plazo","pregunta":"¿Para cuándo te gustaría tenerla?","opciones":[{"valor":"ya","etiqueta":"Lo antes posible"},{"valor":"6m","etiqueta":"En los próximos 6 meses"},{"valor":"sinprisa","etiqueta":"Sin prisa, si aparece la adecuada"}]},{"tipo":"texto","campo":"nombre","etiqueta_envio":"Nombre","corto":"Nombre","pregunta":"¿Cómo te llamas?","ayuda":"Para que tu asesor sepa a quién saluda.","marcador":"Tu nombre"},{"tipo":"telefono","campo":"telefono","etiqueta_envio":"Teléfono","corto":"Teléfono","pregunta":"Encantados, {nombre}. ¿En qué teléfono te llamamos?","ayuda":"Te llamaremos para afinar la búsqueda contigo.","marcador":"600 000 000"},{"tipo":"opciones","campo":"horario","etiqueta_envio":"Mejor momento para llamar","corto":"Llamada","pregunta":"¿Cuándo te viene mejor que te llamemos?","opciones":[{"valor":"manana","etiqueta":"Por la mañana"},{"valor":"tarde","etiqueta":"Por la tarde"},{"valor":"indiferente","etiqueta":"Cuando sea, estoy disponible"},{"valor":"whatsapp","etiqueta":"Prefiero que me escribáis por WhatsApp"}]},{"tipo":"email","campo":"email","etiqueta_envio":"Email","corto":"Email","pregunta":"¿Quieres recibir también la información por email?","ayuda":"Te enviaremos solo lo relacionado con tu solicitud.","marcador":"tu@email.com","obligatorio":false},{"tipo":"final","campo":"final","pregunta":"Todo listo, {nombre}. ¿Lo enviamos?","ayuda":"Un último paso: confirma que aceptas la política de privacidad."}],"gracias":{"titulo":"Gracias, {nombre}. Ya formas parte de Estudio 33.","texto":"Desde este momento tu búsqueda es también la nuestra. Tu asesor te llamará muy pronto para afinarla contigo y contarte cómo vamos a trabajar juntos.","puntos":["Buscamos según tus prioridades, no según lo que haya que colocar","Revisamos cargas, deudas y estado legal antes de que firmes","Te acompañamos en la hipoteca y en la notaría"],"boton":"Volver a la web"}}</script>
+<script src="/js/formulario.js" defer></script>
+</body>
+</html>

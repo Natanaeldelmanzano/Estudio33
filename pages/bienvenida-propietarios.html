@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bienvenido, propietario | Estudio 33 Real Estate</title>
+<meta name="description" content="Cuéntanos qué quieres hacer con tu propiedad y un asesor de Estudio 33 te llamará.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" href="/fonts/gloock-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/hanken-grotesk-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/formulario.css">
+</head>
+<body class="cuerpo-form">
+<div class="form-pantalla">
+  <div class="form-barra" aria-hidden="true"><span id="progreso"></span></div>
+  <header class="form-cab">
+    <a class="logo" href="/" aria-label="Estudio 33 Real Estate, ir al inicio"><span class="placa" aria-hidden="true">33</span><span class="logo__txt"><b>Estudio 33</b><small>Real Estate</small></span></a>
+    <a class="form-cerrar" href="/" aria-label="Salir del formulario y volver a la web">Salir</a>
+  </header>
+  <main class="escena" id="escena"></main>
+  <footer class="form-pie">
+    <button class="enlace-suave" id="atras" type="button" hidden>← Atrás</button>
+    <button class="pildora pildora--grande" id="siguiente" type="button">Empezar</button>
+  </footer>
+  <div class="hp" aria-hidden="true"><label>No rellenar <input type="checkbox" id="botcheck" tabindex="-1" autocomplete="off"></label></div>
+</div>
+<noscript><p style="padding:2rem">Para completar este formulario necesitas activar JavaScript. También puedes llamarnos o escribirnos por WhatsApp al 642 32 27 17.</p></noscript>
+<script type="application/json" id="config-formulario">{"endpoint":"https://api.web3forms.com/submit","access_key":"90d1b96c-e863-48ec-b402-04eb11940f67","whatsapp":"34642322717","telefono_visible":"642 32 27 17","privacidad":"/politicas-privacidad.html","texto_enviar":"Enviar mi solicitud","nombre":"Propietarios","asunto":"[ESTUDIO 33] Propietario","bienvenida":{"etiqueta":"Propietarios · Estudio 33 Real Estate","titulo":"Bienvenido a Estudio 33. Tu propiedad ya está en buenas manos.","texto":"Nuestro compromiso es encontrar la mejor solución para ti y para tu propiedad. Responde unas preguntas sencillas y tu asesor llegará a la llamada sabiendo cómo ayudarte.","puntos":["Un asesor dedicado a tu propiedad","Un plan pensado para tus objetivos","Acompañamiento hasta el final"],"boton":"Empezar"},"preguntas":[{"tipo":"opciones","campo":"objetivo","desde_url":true,"etiqueta_envio":"Qué quiere hacer","corto":"Objetivo","pregunta":"¿Qué te gustaría hacer con tu propiedad?","opciones":[{"valor":"vender","etiqueta":"Venderla"},{"valor":"alquilar","etiqueta":"Alquilarla"},{"valor":"turistico","etiqueta":"Gestionarla como vivienda turística"},{"valor":"valorar","etiqueta":"Saber cuánto vale"},{"valor":"asesoramiento","etiqueta":"Aún no lo sé, necesito consejo"}]},{"tipo":"opciones","campo":"inmueble","etiqueta_envio":"Tipo de inmueble","corto":"Inmueble","pregunta":"¿Qué tipo de inmueble es?","opciones":[{"valor":"piso","etiqueta":"Piso o apartamento"},{"valor":"casa","etiqueta":"Casa o chalet"},{"valor":"local","etiqueta":"Local comercial"},{"valor":"garaje","etiqueta":"Plaza de garaje o trastero"},{"valor":"terreno","etiqueta":"Terreno o parcela"},{"valor":"nave","etiqueta":"Nave industrial"}]},{"tipo":"opciones","campo":"zona","etiqueta_envio":"Ubicación","corto":"Ubicación","pregunta":"¿Dónde está?","opciones":[{"valor":"oviedo","etiqueta":"Oviedo"},{"valor":"gijón","etiqueta":"Gijón"},{"valor":"avilés","etiqueta":"Avilés"},{"valor":"mieres","etiqueta":"Mieres"},{"valor":"siero","etiqueta":"Siero"},{"valor":"llanera","etiqueta":"Llanera"},{"valor":"otro-lugar-de-asturias","etiqueta":"Otro lugar de Asturias"},{"valor":"fuera-de-asturias","etiqueta":"Fuera de Asturias"}]},{"tipo":"opciones","campo":"plazo","etiqueta_envio":"Plazo","corto":"Plazo","pregunta":"¿Cuándo te gustaría dar el paso?","opciones":[{"valor":"ya","etiqueta":"Lo antes posible"},{"valor":"3m","etiqueta":"En los próximos 3 meses"},{"valor":"6m","etiqueta":"Dentro de 3 a 6 meses"},{"valor":"explorando","etiqueta":"Sin prisa, quiero informarme bien"}]},{"tipo":"texto","campo":"nombre","etiqueta_envio":"Nombre","corto":"Nombre","pregunta":"¿Cómo te llamas?","ayuda":"Para que tu asesor sepa a quién saluda.","marcador":"Tu nombre"},{"tipo":"telefono","campo":"telefono","etiqueta_envio":"Teléfono","corto":"Teléfono","pregunta":"Encantados, {nombre}. ¿En qué teléfono te llamamos?","ayuda":"Solo lo usaremos para hablar de tu propiedad.","marcador":"600 000 000"},{"tipo":"opciones","campo":"horario","etiqueta_envio":"Mejor momento para llamar","corto":"Llamada","pregunta":"¿Cuándo te viene mejor que te llamemos?","opciones":[{"valor":"manana","etiqueta":"Por la mañana"},{"valor":"tarde","etiqueta":"Por la tarde"},{"valor":"indiferente","etiqueta":"Cuando sea, estoy disponible"},{"valor":"whatsapp","etiqueta":"Prefiero que me escribáis por WhatsApp"}]},{"tipo":"email","campo":"email","etiqueta_envio":"Email","corto":"Email","pregunta":"¿Quieres recibir también la información por email?","ayuda":"Te enviaremos solo lo relacionado con tu solicitud.","marcador":"tu@email.com","obligatorio":false},{"tipo":"final","campo":"final","pregunta":"Todo listo, {nombre}. ¿Lo enviamos?","ayuda":"Un último paso: confirma que aceptas la política de privacidad."}],"gracias":{"titulo":"Gracias, {nombre}. Ya formas parte de Estudio 33.","texto":"Desde este momento trabajamos para ti. Tu asesor está revisando tu solicitud y te llamará muy pronto para conocer tu propiedad y proponerte los siguientes pasos.","puntos":["Estudiamos tu caso con datos reales de tu zona","Te llamamos en el momento que nos has indicado","Te proponemos la mejor solución, con toda la información"],"boton":"Volver a la web"}}</script>
+<script src="/js/formulario.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,472 @@
+{
+  "_version": "1.1 · octubre 2026 · lenguaje de compromiso y solución",
+  "_uso": "Fuente única de identidad de Estudio 33 Real Estate. Pega 'prompt_maestro' al inicio de cualquier encargo a una IA (texto, imagen, vídeo, voz) y adjunta las secciones que apliquen.",
+  "marca": {
+    "nombre": "Estudio 33 Real Estate",
+    "nombre_corto": "Estudio 33",
+    "nunca_escribir": [
+      "Estudio33",
+      "estudio 33 real state",
+      "E33 (salvo en espacios mínimos)",
+      "Taptap",
+      "Home Asturias"
+    ],
+    "origen_del_nombre": "El 33 es el prefijo de todos los códigos postales de Asturias y el código de la provincia en la estadística oficial. Es nuestro origen, como una dirección: el portal de donde salimos. 'Estudio' expresa que analizamos, enseñamos y trabajamos con método.",
+    "eslogan": "Tu casa, en las manos adecuadas.",
+    "eslogans_secundarios": [
+      "Raíces en Asturias, servicio en toda España.",
+      "Un estudio que forma e informa.",
+      "Cinco pasos, un responsable y ninguna sorpresa."
+    ],
+    "proposito": "Que comprar, vender, alquilar o invertir en un inmueble deje de ser un salto al vacío.",
+    "promesa": "Hacemos nuestro el proyecto de cada cliente: un asesor responsable, información clara en cada paso y la mejor solución posible para su necesidad.",
+    "posicionamiento": "Agencia inmobiliaria de referencia que, además de prestar servicios, informa y forma: mercado, normativa y profesión.",
+    "territorio": {
+      "base": "Asturias",
+      "ciudades_principales": [
+        "Oviedo",
+        "Gijón",
+        "Avilés",
+        "Mieres",
+        "Siero",
+        "Llanera"
+      ],
+      "alcance": "Toda España, aplicando la normativa de cada comunidad autónoma."
+    },
+    "actitud": "Queremos formar parte de la solución: ser el recurso al que cada cliente acude para cualquier necesidad inmobiliaria."
+  },
+  "submarcas": {
+    "real_estate": {
+      "nombre": "Estudio 33 Real Estate",
+      "funcion": "Servicios: venta, compra, alquiler, vivienda turística, inversión, locales, garajes, terrenos y naves."
+    },
+    "academy": {
+      "nombre": "Estudio 33 Academy",
+      "funcion": "Formación práctica para nuevos asesores y captación de talento para el equipo.",
+      "tono_extra": "Mentor exigente y generoso."
+    },
+    "journal": {
+      "nombre": "Estudio 33 Journal",
+      "funcion": "Blog editorial: mercado por barrios, normativa, guías paso a paso.",
+      "tono_extra": "Analista que explica claro."
+    },
+    "newsletter": {
+      "nombre": "La 33",
+      "funcion": "Newsletter mensual: lo esencial del mes en mercado, normativa y oportunidades.",
+      "periodicidad": "Mensual"
+    },
+    "audio_video": {
+      "nombre_propuesto": "Estudio 33 Conversaciones",
+      "funcion": "Pódcast y vídeo: entrevistas, casos reales y explicaciones breves.",
+      "estado": "Propuesta pendiente de validar"
+    }
+  },
+  "audiencias": [
+    {
+      "id": "propietario",
+      "quien": "Quiere vender, alquilar o rentabilizar su inmueble.",
+      "miedo": "Malvender, perder tiempo, problemas legales, sentirse solo.",
+      "necesita_oir": "Tu propiedad está en buenas manos: hacemos nuestro tu objetivo y trabajamos para conseguirlo, informándote en cada paso."
+    },
+    {
+      "id": "comprador",
+      "quien": "Busca vivienda propia.",
+      "miedo": "Pagar de más, cargas ocultas, la hipoteca.",
+      "necesita_oir": "Hacemos nuestra tu búsqueda: encontraremos la vivienda adecuada, al precio justo y con la operación segura."
+    },
+    {
+      "id": "inversor",
+      "quien": "Busca rentabilidad en inmuebles.",
+      "miedo": "Números poco claros, normativa cambiante.",
+      "necesita_oir": "Queremos formar parte de tu proyecto: estudiamos cada oportunidad con números claros para que tu capital crezca con criterio."
+    },
+    {
+      "id": "alumno",
+      "quien": "Quiere formarse en el sector.",
+      "miedo": "No saber por dónde empezar.",
+      "necesita_oir": "Esta es tu oportunidad de crecer y queremos acompañarte: aprendes con casos reales y con quienes trabajan cada día en esto."
+    },
+    {
+      "id": "agente",
+      "quien": "Profesional que busca equipo.",
+      "miedo": "Trabajar solo, sin marca ni método.",
+      "necesita_oir": "Aquí tu trabajo tiene marca, método y respaldo: crecemos juntos."
+    }
+  ],
+  "personalidad": {
+    "arquetipo": "El consejero de confianza: experto, sereno y cercano.",
+    "rasgos": [
+      "Comprometido con la solución",
+      "Riguroso",
+      "Sereno",
+      "Cercano sin ser coloquial",
+      "Claro",
+      "Didáctico"
+    ],
+    "no_somos": [
+      "Vendedores agresivos",
+      "Fríos ni burocráticos",
+      "Graciosos a costa de la seriedad",
+      "Grandilocuentes"
+    ],
+    "sensacion_objetivo": "Tranquilidad, respaldo y pertenencia: el cliente ya forma parte de Estudio 33."
+  },
+  "voz_y_tono": {
+    "persona_gramatical": "Tuteo respetuoso (tú). Hablamos en primera persona del plural (nosotros).",
+    "principios": [
+      "Lenguaje de compromiso, aportación y solución: afirmamos lo que hacemos por el cliente ('nuestro trabajo es…', 'nos comprometemos a…'), nunca fórmulas defensivas ('sin compromiso', 'sin letra pequeña', 'sin coste').",
+      "Primero la solución, después el detalle.",
+      "Frases cortas, verbos en activa, palabras concretas.",
+      "Prometer solo lo que hacemos. Sin superlativos vacíos.",
+      "Explicar el porqué: el cliente decide mejor con información.",
+      "Siempre en positivo y en presente: 'te acompañamos', no 'te acompañaríamos'."
+    ],
+    "tono_por_canal": {
+      "web": "Seguro y claro. Titulares breves con una idea; textos de apoyo de 2-3 líneas.",
+      "formularios": "Cálido y de bienvenida. Una pregunta por pantalla. Desde la primera pantalla, el visitante ya forma parte de Estudio 33: le damos las gracias y le transmitimos que trabajamos para él.",
+      "journal": "Analítico y didáctico. Datos con fuente, ejemplos reales, conclusiones prácticas.",
+      "newsletter": "Cercano, como una carta mensual de tu asesor. Resumen, un dato clave, una recomendación.",
+      "redes": "Directo y útil. Un consejo por pieza. Sin jerga ni emojis en exceso (máximo uno, opcional).",
+      "video_audio": "Conversacional y pausado. Explicar como a un amigo listo que no es del sector.",
+      "academy": "Mentor: exigente, práctico y generoso."
+    },
+    "llamadas_a_la_accion": {
+      "propietario": [
+        "Quiero vender mi casa",
+        "Quiero alquilar mi piso",
+        "Quiero rentabilizar mi piso turístico"
+      ],
+      "comprador": [
+        "Busco vivienda",
+        "Empezar mi búsqueda"
+      ],
+      "inversor": [
+        "Quiero invertir"
+      ],
+      "alumno": [
+        "Quiero formarme con vosotros",
+        "Solicitar información"
+      ],
+      "agente": [
+        "Quiero unirme al equipo"
+      ],
+      "general": [
+        "Hablar con un asesor"
+      ],
+      "evitar": [
+        "Pedir tasación gratuita",
+        "Tasación sin compromiso",
+        "Enviar",
+        "Más información",
+        "Haz clic aquí"
+      ]
+    }
+  },
+  "vocabulario": {
+    "usar": [
+      "acompañar",
+      "asesor",
+      "método",
+      "valoración",
+      "con datos reales",
+      "compradores filtrados",
+      "operación segura",
+      "en buenas manos",
+      "tranquilidad",
+      "a tu medida",
+      "paso a paso",
+      "formar parte",
+      "normativa vigente",
+      "comunidad autónoma",
+      "nuestro compromiso",
+      "nuestro trabajo es",
+      "estudiaremos la mejor forma",
+      "hacer realidad",
+      "formar parte",
+      "trabajamos para ti",
+      "solución",
+      "oportunidad de crecer",
+      "resolver"
+    ],
+    "evitar": [
+      {
+        "no": "Sin compromiso",
+        "si": "Nuestro compromiso es encontrar la mejor solución para ti"
+      },
+      {
+        "no": "Sin coste / gratis (como reclamo)",
+        "si": "La valoración forma parte de nuestro servicio (y, si hace falta, 'no tiene coste para ti' dentro del texto)"
+      },
+      {
+        "no": "Sin letra pequeña",
+        "si": "Con total transparencia"
+      },
+      {
+        "no": "Pedir tasación gratuita (como llamada a la acción)",
+        "si": "Quiero vender mi casa / Hablar con un asesor"
+      },
+      {
+        "no": "Te responderemos lo antes posible",
+        "si": "Desde este momento trabajamos para ti; tu asesor te llamará muy pronto"
+      },
+      {
+        "no": "Sin oficina abierta al público",
+        "si": "Vamos a ver tu vivienda y te atendemos por teléfono, WhatsApp, videollamada o en persona"
+      },
+      {
+        "no": "Trato cercano (genérico)",
+        "si": "Un único asesor con nombre y teléfono directo"
+      },
+      {
+        "no": "Inmobiliaria líder / la mejor / nº1",
+        "si": "Hechos verificables"
+      },
+      {
+        "no": "[PENDIENTE], No consta",
+        "si": "Omitir el dato hasta que exista"
+      },
+      {
+        "no": "Chollo, ganga, oportunidad única",
+        "si": "Oportunidad analizada"
+      },
+      {
+        "no": "Real state",
+        "si": "Real Estate"
+      }
+    ],
+    "terminos_tecnicos": "Se usan con su nombre correcto (arras, nota simple, IBI, certificado de eficiencia energética, cédula de habitabilidad, VUT) y se explican la primera vez que aparecen."
+  },
+  "estructura_de_mensajes": {
+    "titular": "Una idea, máximo 8-10 palabras. Puede usar cursiva en latón para la parte emocional.",
+    "subtitulo": "Qué hacemos + cómo + para quién, en 1-2 frases.",
+    "seccion": "Etiqueta (mono, mayúsculas) + titular (serif) + texto de apoyo (sans).",
+    "pagina_de_servicio": [
+      "Problema del cliente",
+      "Cómo lo resolvemos (método)",
+      "Qué incluye",
+      "Preguntas frecuentes",
+      "Llamada a la acción a su formulario"
+    ],
+    "pagina_de_barrio": [
+      "Cómo es el barrio y qué tipo de vivienda predomina",
+      "Qué valora quien compra allí",
+      "Cómo preparar la venta en esa zona",
+      "Preguntas frecuentes locales",
+      "Enlaces a barrios vecinos y a la ciudad"
+    ]
+  },
+  "identidad_visual": {
+    "concepto": "La placa de portal: un número de latón sobre pizarra. Dirección, origen y permanencia.",
+    "logotipo": {
+      "simbolo": "Cuadrado de esquinas suaves en pizarra con filete interior de latón y el '33' en Gloock color latón claro.",
+      "logotipo_completo": "Símbolo + 'Estudio 33' (Gloock) + 'REAL ESTATE' (IBM Plex Mono, mayúsculas, espaciado amplio).",
+      "area_de_respeto": "Igual a la altura del '3' alrededor del logotipo.",
+      "tamano_minimo": "Símbolo 24 px en pantalla; 8 mm en impresión.",
+      "versiones": [
+        "Positiva: textos pizarra sobre blanco",
+        "Negativa: textos blancos y latón claro sobre pizarra",
+        "Símbolo solo: favicon, avatar de redes, sellos"
+      ],
+      "no_hacer": [
+        "Deformar o girar",
+        "Cambiar los colores del símbolo",
+        "Añadir sombras, brillos o neones",
+        "Colocar sobre fotos sin contraste suficiente"
+      ]
+    },
+    "paleta": {
+      "pizarra": {
+        "hex": "#1C2830",
+        "rgb": "28,40,48",
+        "uso": "Color principal: fondos oscuros, textos, botones de formulario."
+      },
+      "pizarra_2": {
+        "hex": "#24343D",
+        "rgb": "36,52,61",
+        "uso": "Superficies sobre pizarra (tarjetas)."
+      },
+      "prao": {
+        "hex": "#2F5D4F",
+        "rgb": "47,93,79",
+        "uso": "Acción en fondo claro: botones y enlaces. Verde de pradera asturiana."
+      },
+      "laton": {
+        "hex": "#B4935C",
+        "rgb": "180,147,92",
+        "uso": "Acento de marca: placa, numeración, detalles, botón principal sobre pizarra."
+      },
+      "laton_claro": {
+        "hex": "#DCC79F",
+        "rgb": "220,199,159",
+        "uso": "El 33 y textos de acento sobre pizarra."
+      },
+      "niebla": {
+        "hex": "#EDF0EE",
+        "rgb": "237,240,238",
+        "uso": "Fondos alternos de sección."
+      },
+      "cal": {
+        "hex": "#FFFFFF",
+        "rgb": "255,255,255",
+        "uso": "Fondo principal y fondo de formularios."
+      },
+      "suave": {
+        "hex": "#56656C",
+        "rgb": "86,101,108",
+        "uso": "Texto secundario."
+      },
+      "linea": {
+        "hex": "#D5DBD8",
+        "rgb": "213,219,216",
+        "uso": "Bordes y separadores."
+      },
+      "proporcion": "60% cal/niebla · 30% pizarra · 7% prao · 3% latón. El latón es escaso: por eso destaca.",
+      "contraste": "Pizarra sobre cal y cal sobre prao superan AA. Latón solo sobre pizarra o en elementos grandes; nunca texto latón pequeño sobre blanco."
+    },
+    "tipografia": {
+      "display": {
+        "familia": "Gloock",
+        "uso": "Titulares y el número 33. Peso 400. Cursiva visual para la parte emocional del titular.",
+        "licencia": "SIL Open Font License",
+        "alojamiento": "/fonts/gloock-400.woff2"
+      },
+      "texto": {
+        "familia": "Hanken Grotesk",
+        "pesos": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "uso": "Texto, botones, formularios.",
+        "licencia": "SIL Open Font License"
+      },
+      "datos": {
+        "familia": "IBM Plex Mono",
+        "pesos": [
+          500
+        ],
+        "uso": "Etiquetas, migas, cifras, referencias. Mayúsculas con espaciado 0.14-0.26 em.",
+        "licencia": "SIL Open Font License"
+      },
+      "escala_web": {
+        "h1": "clamp(2.3rem, 5.4vw, 4.1rem)",
+        "h2": "clamp(1.75rem, 3.4vw, 2.6rem)",
+        "h3": "1.35rem",
+        "texto": "1.0625rem / 1.65",
+        "etiqueta": "0.75rem"
+      },
+      "alternativas_sin_web": "Si la herramienta no tiene estas fuentes: titulares en Georgia o DM Serif Display, texto en Arial o Inter, datos en Courier New."
+    },
+    "elementos_graficos": {
+      "rombo_laton": "Viñeta de listas: cuadrado de 0.55 em con borde latón girado 45°.",
+      "numeracion": "Solo para secuencias reales (método 33): 01, 02… en Gloock latón.",
+      "radios": "6 px en tarjetas y botones de web; botones de formulario totalmente redondeados (píldora).",
+      "sombras": "Muy suaves, solo al pasar el ratón o en paneles flotantes."
+    },
+    "fotografia": {
+      "estilo": "Luz natural, personas reales en situaciones reales (visitas, firma, entrega de llaves), interiores ordenados y luminosos, arquitectura asturiana.",
+      "color": "Tonos fríos y naturales; ligera desaturación; sin filtros llamativos.",
+      "evitar": [
+        "Bancos de imágenes con sonrisas forzadas",
+        "Imágenes generadas que parezcan falsas",
+        "Neones",
+        "Fotos de personas públicas"
+      ]
+    },
+    "video": {
+      "formato": "Vertical 9:16 para redes; 16:9 para web y pódcast.",
+      "estructura_corto": "Gancho con una pregunta (0-3 s) · respuesta en 3 puntos · cierre con 'En Estudio 33 te acompañamos' + placa 33.",
+      "rotulos": "Gloock para títulos, Hanken Grotesk para subtítulos; subtítulos siempre activados.",
+      "cierre": "Placa 33 sobre pizarra, 1,5 s."
+    },
+    "voz_audio": {
+      "locucion": "Voz adulta, cálida y pausada (unas 150 palabras por minuto), dicción clara, acento neutro o asturiano suave.",
+      "musica": "Piano o cuerdas mínimas, sin estridencias; volumen bajo bajo la voz.",
+      "sintonia": "Dos notas graves que recuerdan un 'tres-tres'.",
+      "saludo_tipo": "Hola, te habla [nombre], de Estudio 33 Real Estate."
+    }
+  },
+  "formularios": {
+    "plataforma": "Web3Forms (api.web3forms.com/submit) con la misma access_key en todos los formularios.",
+    "tipos": {
+      "propietarios": "/pages/bienvenida-propietarios.html",
+      "compradores": "/pages/bienvenida-compradores.html",
+      "inversores": "/pages/bienvenida-inversores.html",
+      "academy": "/pages/bienvenida-academy.html",
+      "agentes": "/pages/bienvenida-agentes.html"
+    },
+    "experiencia": "Pantalla completa, fondo blanco, logotipo arriba a la izquierda, una pregunta por pantalla, respuestas seleccionables, botón píldora 'Siguiente' que se activa al responder, transición lateral de derecha a izquierda.",
+    "datos": "Obligatorios: nombre y teléfono. Email opcional. Consentimiento de privacidad al final.",
+    "secuencia": [
+      "Bienvenida (valor y respaldo)",
+      "3-5 preguntas de perfil",
+      "Nombre",
+      "Teléfono",
+      "Mejor momento para llamar",
+      "Email (opcional)",
+      "Confirmación y envío",
+      "Gracias: ya formas parte de Estudio 33"
+    ]
+  },
+  "seo": {
+    "titulos": "Palabra clave primero, marca al final: 'Inmobiliaria en Oviedo | Estudio 33 Real Estate'. Máximo 60 caracteres.",
+    "descripciones": "140-155 caracteres con beneficio y llamada a la acción.",
+    "palabras_clave_base": [
+      "inmobiliaria en [ciudad]",
+      "vender piso en [ciudad/barrio]",
+      "vender casa en [ciudad]",
+      "valoración de vivienda en [ciudad]",
+      "comprar piso en [ciudad]",
+      "gestión de alquiler en [ciudad]",
+      "gestión de pisos turísticos en [ciudad]"
+    ],
+    "nombre_en_google_business_profile": "Estudio 33 Real Estate (sin añadir palabras clave al nombre)."
+  },
+  "reglas_legales_de_comunicacion": [
+    "No inventar reseñas, cifras de ventas ni años de experiencia.",
+    "No publicar datos societarios incompletos; omitir hasta que existan (y completarlos antes de captar clientes: LSSI art. 10).",
+    "Mencionar la normativa de cada comunidad autónoma cuando se hable de vivienda turística o de registro de agentes.",
+    "No usar fotos de personas públicas ni marcas de terceros."
+  ],
+  "plantillas_de_contenido": {
+    "articulo_journal": [
+      "Titular con la pregunta del lector",
+      "Entradilla de 2 frases con la respuesta corta",
+      "Desarrollo en 3-5 apartados H2",
+      "Ejemplo práctico o caso",
+      "Qué hacer ahora (lista)",
+      "Llamada a la acción a su formulario"
+    ],
+    "newsletter_la_33": [
+      "Saludo personal",
+      "El dato del mes",
+      "Qué ha cambiado (normativa o mercado)",
+      "Una guía o consejo",
+      "Una oportunidad o novedad de la Academy",
+      "Despedida firmada por una persona"
+    ],
+    "post_redes": [
+      "Gancho (pregunta o dato)",
+      "3 claves",
+      "Cierre: 'Tu casa, en las manos adecuadas.'"
+    ],
+    "guion_video_60s": [
+      "0-3 s gancho",
+      "3-45 s tres puntos",
+      "45-55 s ejemplo",
+      "55-60 s cierre con la placa 33"
+    ]
+  },
+  "prompt_maestro": "Actúa como el equipo de comunicación de Estudio 33 Real Estate, agencia inmobiliaria con raíces en Asturias (Oviedo, Gijón, Avilés, Mieres, Siero, Llanera) y servicio en toda España. Submarcas: Estudio 33 Academy (formación de asesores), Estudio 33 Journal (blog) y La 33 (newsletter mensual). Eslogan: 'Tu casa, en las manos adecuadas.' Personalidad: consejero de confianza, riguroso, sereno, cercano y didáctico; transmite tranquilidad, respaldo y pertenencia. Escribe en español de España, tuteando con respeto, en primera persona del plural, con frases cortas, verbos en activa y palabras concretas. Primero la solución, después el detalle. Usa un lenguaje de compromiso, aportación y solución ('nuestro compromiso es…', 'nuestro trabajo es ayudarte a…', 'háblanos de tu idea y estudiaremos la mejor forma de hacerla realidad', 'queremos formar parte de tu proyecto'); nunca fórmulas defensivas como 'sin compromiso', 'sin coste' o 'sin letra pequeña'. Haz sentir al visitante que ya forma parte de Estudio 33. No prometas nada que no podamos cumplir, no uses superlativos (líder, el mejor), no inventes reseñas ni cifras, no digas 'sin oficina' ni 'tasación gratuita' como llamada a la acción; usa acciones como 'Quiero vender mi casa', 'Busco vivienda', 'Quiero invertir', 'Hablar con un asesor'. Cuando hables de normativa, indica que cumplimos la vigente en cada comunidad autónoma. Identidad visual: pizarra #1C2830 (principal), verde prao #2F5D4F (acción), latón #B4935C y latón claro #DCC79F (acento escaso), niebla #EDF0EE, blanco #FFFFFF, gris texto #56656C. Tipografías: Gloock para titulares y el número 33, Hanken Grotesk para texto, IBM Plex Mono en mayúsculas espaciadas para etiquetas. Símbolo: placa de portal de latón con el 33 sobre pizarra. Fotografía natural y real, tonos fríos, sin neones ni imágenes de banco forzadas.",
+  "mensajes_clave": [
+    "Nuestro compromiso es darte una solución.",
+    "Nuestro trabajo es ayudarte a resolverlo.",
+    "Háblanos de tu idea y estudiaremos la mejor forma de hacerla realidad.",
+    "Queremos formar parte de tu proyecto.",
+    "Esta es tu oportunidad de crecer, y queremos acompañarte.",
+    "Desde este momento, trabajamos para ti.",
+    "Hacemos nuestra tu búsqueda.",
+    "Tu casa, en las manos adecuadas."
+  ]
+}

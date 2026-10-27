@@ -1,0 +1,68 @@
+/* Formulario pregunta a pregunta · pantalla completa, fondo blanco, minimalista */
+html, body.cuerpo-form { height: 100%; overflow: hidden; background: var(--cal); }
+.form-pantalla { height: 100vh; height: 100dvh; display: grid; grid-template-rows: auto 1fr auto; position: relative; }
+.form-barra { position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--niebla); z-index: 2; }
+.form-barra span { display: block; height: 100%; width: 0; background: var(--laton); transition: width .5s cubic-bezier(.22,.61,.36,1); }
+.form-cab { display: flex; justify-content: space-between; align-items: center; padding: 1.4rem clamp(1.2rem, 4vw, 2.6rem); }
+.form-cerrar { font: 500 .78rem/1 var(--f-dato); letter-spacing: .14em; text-transform: uppercase; color: var(--suave); text-decoration: none; padding: .6rem .2rem; }
+.form-cerrar:hover { color: var(--pizarra); }
+.escena { position: relative; overflow: hidden; }
+.paso { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 0 clamp(1.2rem, 5vw, 3rem); overflow-y: auto; transition: transform .52s cubic-bezier(.22,.61,.36,1), opacity .52s ease; }
+.paso__caja { width: min(640px, 100%); margin: auto; padding: 1.5rem 0; }
+.entra-dcha { transform: translateX(60%); opacity: 0; }
+.entra-izda { transform: translateX(-60%); opacity: 0; }
+.sale-izda { transform: translateX(-60%); opacity: 0; }
+.sale-dcha { transform: translateX(60%); opacity: 0; }
+.paso__etiqueta { font: 500 .74rem/1.4 var(--f-dato); letter-spacing: .16em; text-transform: uppercase; color: var(--laton); margin: 0 0 1rem; }
+.paso__titulo { font-size: clamp(1.9rem, 4.6vw, 3rem); line-height: 1.12; margin: 0 0 1rem; color: var(--pizarra); outline: none; }
+.paso__texto { font-size: clamp(1.04rem, 1.6vw, 1.18rem); color: var(--suave); margin: 0 0 1.6rem; max-width: 34rem; }
+.paso__puntos { list-style: none; margin: 0; padding: 0; }
+.paso__puntos li { padding: .55rem 0 .55rem 1.7rem; position: relative; color: var(--texto); border-top: 1px solid var(--linea); }
+.paso__puntos li::before { content: ""; position: absolute; left: .1rem; top: 1.05rem; width: .5rem; height: .5rem; border: 1.5px solid var(--laton); transform: rotate(45deg); }
+.paso__nota { font-size: .9rem; color: var(--suave); margin: .8rem 0 0; }
+.paso__error { color: #a33a2b; font-weight: 600; margin: 1rem 0 0; min-height: 1.2em; }
+.opciones { display: grid; gap: .65rem; margin-top: .4rem; }
+.opciones--rejilla { grid-template-columns: 1fr 1fr; }
+.opcion { text-align: left; font: 500 1.05rem/1.3 var(--f-texto); color: var(--pizarra); background: var(--cal); border: 1.5px solid var(--linea); border-radius: 999px; padding: .95rem 1.4rem .95rem 3rem; cursor: pointer; position: relative; transition: border-color .2s, background .2s, transform .15s; }
+.opcion::before { content: ""; position: absolute; left: 1.15rem; top: 50%; width: 1.05rem; height: 1.05rem; margin-top: -.525rem; border-radius: 50%; border: 1.5px solid #b9c3bf; transition: border-color .2s, box-shadow .2s; }
+.opcion:hover { border-color: var(--prao); }
+.opcion[aria-checked="true"] { border-color: var(--pizarra); background: var(--niebla); }
+.opcion[aria-checked="true"]::before { border-color: var(--pizarra); box-shadow: inset 0 0 0 4px var(--cal), inset 0 0 0 10px var(--pizarra); }
+.opcion:active { transform: scale(.99); }
+.campo { width: 100%; font: 400 clamp(1.3rem, 3vw, 1.8rem)/1.3 var(--f-texto); color: var(--pizarra); border: 0; border-bottom: 2px solid var(--linea); padding: .6rem 0; background: transparent; border-radius: 0; }
+.campo:focus { outline: none; border-bottom-color: var(--pizarra); }
+.campo::placeholder { color: #a7b1b4; }
+[hidden] { display: none !important; }
+.resumen { margin: 1.2rem 0 0; border-top: 1px solid var(--linea); }
+.resumen summary { cursor: pointer; padding: .7rem 0; font-weight: 600; font-size: .95rem; color: var(--pizarra); list-style: none; }
+.resumen summary::-webkit-details-marker { display: none; }
+.resumen summary::after { content: " +"; color: var(--laton); }
+.resumen[open] summary::after { content: " –"; }
+.resumen p { display: flex; justify-content: space-between; gap: 1rem; margin: 0; padding: .55rem 0; border-bottom: 1px solid var(--linea); font-size: .95rem; }
+.resumen span { color: var(--suave); }
+.resumen strong { text-align: right; font-weight: 600; }
+.consentimiento { display: flex; gap: .7rem; align-items: flex-start; font-size: .92rem; color: var(--suave); cursor: pointer; }
+.consentimiento input { width: 1.2rem; height: 1.2rem; margin-top: .15rem; accent-color: var(--pizarra); flex: none; }
+.form-pie { display: flex; align-items: center; justify-content: center; gap: 1.2rem; padding: 1.2rem clamp(1.2rem, 4vw, 2.6rem) max(1.6rem, env(safe-area-inset-bottom)); position: relative; }
+.form-pie #atras { position: absolute; left: clamp(1.2rem, 4vw, 2.6rem); }
+.pildora { display: inline-flex; align-items: center; justify-content: center; min-width: min(360px, 100%); padding: 1.05rem 2.4rem; border-radius: 999px; border: 0; background: var(--pizarra); color: var(--cal); font: 600 1.05rem/1.2 var(--f-texto); letter-spacing: .01em; text-decoration: none; cursor: pointer; transition: background .25s, opacity .25s, transform .2s; }
+.pildora:hover { background: var(--prao); color: var(--cal); }
+.pildora:disabled { background: #d9dfdc; color: #8e9a9e; cursor: not-allowed; }
+.pildora:not(:disabled):active { transform: scale(.985); }
+.enlace-suave { background: none; border: 0; font: 500 .95rem/1 var(--f-texto); color: var(--suave); cursor: pointer; text-decoration: none; padding: .6rem 0; }
+.enlace-suave:hover { color: var(--pizarra); }
+.paso__caja--gracias { text-align: left; }
+.sello { display: inline-grid; place-items: center; width: 4.2rem; height: 4.2rem; border-radius: 7px; background: var(--pizarra); color: var(--laton-claro); font: 400 2.2rem/1 var(--f-display); box-shadow: inset 0 0 0 3px var(--pizarra), inset 0 0 0 5px var(--laton); margin-bottom: 1.6rem; }
+.paso__acciones { display: flex; flex-wrap: wrap; align-items: center; gap: 1.4rem; margin-top: 2rem; }
+.paso__acciones .pildora { min-width: 0; }
+@media (max-width: 560px) {
+  .sello { width: 3.2rem; height: 3.2rem; font-size: 1.7rem; margin-bottom: 1rem; }
+  .paso__caja--gracias .paso__puntos li { padding-top: .4rem; padding-bottom: .4rem; font-size: .95rem; }
+  .opciones--rejilla { grid-template-columns: 1fr; }
+  .opcion { padding: .85rem 1.2rem .85rem 2.8rem; font-size: 1rem; }
+  .form-pie { flex-direction: column-reverse; gap: .4rem; }
+  .form-pie #atras { position: static; }
+  .pildora { width: 100%; }
+  .logo__txt small { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .paso { transition: none; } }
