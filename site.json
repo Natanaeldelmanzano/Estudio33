@@ -12,14 +12,14 @@
     "favicon": "/img/favicon.svg"
   },
   "dominio": {
-    "url_base": "https://[DOMINIO]",
+    "url_base": "https://estudio33realestate.es",
     "_ayuda": "Sin barra final. Se usa en canonical, Open Graph, sitemap y schema."
   },
   "contacto": {
     "telefono_visible": "642 32 27 17",
     "telefono_enlace": "+34642322717",
     "whatsapp_numero": "34642322717",
-    "email": "taptaprealestate@gmail.com",
+    "email": "estudio33realestate@gmail.com",
     "zona_servicio": "Oviedo, Gijón, Avilés, Mieres, Siero y Llanera. Resto de España, bajo consulta."
   },
   "whatsapp": {
@@ -211,7 +211,7 @@
     "forma_juridica": "",
     "nif_cif": "",
     "domicilio": "",
-    "email": "taptaprealestate@gmail.com",
+    "email": "estudio33realestate@gmail.com",
     "inscripcion_registral": ""
   },
   "idiomas": {
