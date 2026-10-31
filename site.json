@@ -30,25 +30,25 @@
     "_ayuda": "Rellena url cuando existan los perfiles @estudio33realestate. Si está vacía, el icono sale atenuado y no entra en sameAs.",
     "tiktok": {
       "etiqueta": "TikTok",
-      "url": "",
+      "url": "https://www.tiktok.com/@estudio33realestate",
       "icono": "tiktok",
       "aria_label": "Estudio 33 Real Estate en TikTok"
     },
     "instagram": {
       "etiqueta": "Instagram",
-      "url": "",
+      "url": "https://www.instagram.com/estudio33realestate/",
       "icono": "instagram",
       "aria_label": "Estudio 33 Real Estate en Instagram"
     },
     "facebook": {
       "etiqueta": "Facebook",
-      "url": "",
+      "url": "https://www.facebook.com/estudio33realestate",
       "icono": "facebook",
       "aria_label": "Estudio 33 Real Estate en Facebook"
     },
     "linkedin": {
       "etiqueta": "LinkedIn",
-      "url": "",
+      "url": "https://www.linkedin.com/company/estudio33realestate",
       "icono": "linkedin",
       "aria_label": "Estudio 33 Real Estate en LinkedIn"
     }
